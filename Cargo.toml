@@ -1,0 +1,27 @@
+[package]
+name = "omena-abstract-value"
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+description = "Abstract class value domain for Omena CSS semantic analysis"
+repository = "https://github.com/omenien/omena-abstract-value"
+readme = "README.md"
+keywords = ["omena", "css-modules", "analysis", "abstract-domain"]
+categories = ["development-tools"]
+exclude = [".github/**"]
+
+[lib]
+name = "omena_abstract_value"
+
+[lints.rust]
+unsafe_code = "deny"
+
+[lints.clippy]
+dbg_macro = "warn"
+todo = "warn"
+unwrap_used = "warn"
+expect_used = "warn"
+panic = "warn"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
