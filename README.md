@@ -19,6 +19,8 @@ Current public product:
   an `omena-incremental` recomputation plan and next snapshot.
 - `analyze_class_value_flow_incremental_with_reuse` — incremental flow analysis
   that reuses the previous result when the plan is clean.
+- `analyze_class_value_flow_incremental_batch_with_reuse` — multi-context
+  incremental flow analysis that reuses clean context results independently.
 - `reduced_abstract_class_value_from_facts` /
   `reduced_value_domain_kind_from_facts` — source fact reduction before
   evaluator-facing domain-kind reporting.
