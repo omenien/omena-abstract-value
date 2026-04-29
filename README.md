@@ -1,6 +1,6 @@
-# `omena-abstract-value`
+# omena-abstract-value
 
-Internal Rust crate for the Omena abstract class-value domain.
+Rust crate for the Omena abstract class-value domain.
 
 This crate owns the generic domain contract used to reason about dynamic class
 values before they are projected into a selector universe.
@@ -15,6 +15,8 @@ Current public product:
   class-value flow.
 - `analyze_class_value_flow` — V0 1-CFA flow analysis over explicit
   class-value flow graphs with assign/refine/join transfers.
+- `analyze_class_value_flow_incremental` — the same flow analysis surfaced with
+  an `omena-incremental` recomputation plan and next snapshot.
 - `reduced_abstract_class_value_from_facts` /
   `reduced_value_domain_kind_from_facts` — source fact reduction before
   evaluator-facing domain-kind reporting.
