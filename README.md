@@ -21,6 +21,8 @@ Current public product:
   that reuses the previous result when the plan is clean.
 - `analyze_class_value_flow_incremental_batch_with_reuse` — multi-context
   incremental flow analysis that reuses clean context results independently.
+- `analyze_one_cfa_call_site_flows` — call-site-discriminated 1-CFA batch
+  analysis that preserves per-call-site flow results and callee exit summaries.
 - `reduced_abstract_class_value_from_facts` /
   `reduced_value_domain_kind_from_facts` — source fact reduction before
   evaluator-facing domain-kind reporting.
