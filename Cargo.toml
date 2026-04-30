@@ -1,6 +1,6 @@
 [package]
 name = "omena-abstract-value"
-version = "0.1.6"
+version = "0.1.7"
 edition = "2024"
 license = "MIT"
 description = "Abstract class value domain for Omena CSS semantic analysis"

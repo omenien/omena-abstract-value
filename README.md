@@ -13,8 +13,10 @@ Current public product:
   prefix, suffix, character-inclusion, and composite class-value domains.
 - `join_abstract_class_values` — least-upper-bound merge for branch-sensitive
   class-value flow.
+- `concatenate_abstract_class_values` — conservative string/template
+  concatenation over exact, finite, prefix, suffix, and prefix-suffix domains.
 - `analyze_class_value_flow` — V0 1-CFA flow analysis over explicit
-  class-value flow graphs with assign/refine/join transfers.
+  class-value flow graphs with assign/refine/concat/join transfers.
 - `analyze_class_value_flow_incremental` — the same flow analysis surfaced with
   an `omena-incremental` recomputation plan and next snapshot.
 - `analyze_class_value_flow_incremental_with_reuse` — incremental flow analysis
