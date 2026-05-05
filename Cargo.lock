@@ -148,7 +148,7 @@ dependencies = [
 
 [[package]]
 name = "omena-abstract-value"
-version = "0.1.7"
+version = "0.1.8"
 dependencies = [
  "omena-incremental",
  "serde",
@@ -156,8 +156,9 @@ dependencies = [
 
 [[package]]
 name = "omena-incremental"
-version = "0.1.1"
-source = "git+https://github.com/omenien/omena-incremental.git?rev=89e5631#89e563168efd241aed3010dafa5beb453f0102f4"
+version = "0.1.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "9a22f046a8aab8f829f458fd52b8f58ceffdf096458e8d3daed54826bc3022fe"
 dependencies = [
  "salsa",
  "serde",
